@@ -1,6 +1,6 @@
 # Card Dealer
 
-[Card Dealer Screenshot](https://carddealer.netlify.com/) is a card dealing app built as an exercise for this [tutorial](https://www.udemy.com/course/modern-react-bootcamp/).
+[Card Dealer](https://carddealer.netlify.com/) is a card dealing app built as an exercise for this [tutorial](https://www.udemy.com/course/modern-react-bootcamp/).
 
 ![Screenshot](screenshot.png)
 
