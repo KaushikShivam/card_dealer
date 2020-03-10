@@ -1,68 +1,50 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Card Dealer
 
-## Available Scripts
+[Card Dealer Screenshot](https://carddealer.netlify.com/) is a card dealing app built as an exercise for this [tutorial](https://www.udemy.com/course/modern-react-bootcamp/).
 
-In the project directory, you can run:
+![Screenshot](screenshot.png)
 
-### `yarn start`
+## Table of content
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Project Specifications](#Specifications)
+- [Installation](#installation)
+- [Contact](#contact)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Specifications
 
-### `yarn test`
+Build an app that displays a deck of cards, one card at a time. When the page loads, send a request to https://deckofcardsapi.com/api/deck/new/shuffle to create a new deck. Store the Deck ID it gives you, so you can make further requests to retreive each card image. Add a button to your app that allows a user to draw a new card.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+When a user clicks the button, send another request to the API, this time to https://deckofcardsapi.com/api/deck/${deck_id}/draw/. (make sure to use your actual deck ID). Use the data included in the response to display a new card image, and make sure to include an informative alt attribute.
 
-### `yarn build`
+Every time the user clicks, the app should display a new card until the deck is empty. Make sure to tell the user there are no cards left!
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+1. Clone the project to your local directory
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+git clone https://github.com/KaushikShivam/card_dealer
+```
 
-### `yarn eject`
+2. The project uses NPM for managing dependencies. Run npm install to install all the required dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+npm install
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Run the task runner to run the app
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+npm run start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Contact
 
-## Learn More
+You can contact me at:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- [Portfolio](https://www.shivamkaushik.com)
+- [Email](mailto:shivamkaushikofficial@gmail.com)
+- [Linkedin](https://www.linkedin.com/in/kshivamdev/)
+- [Twitter](https://twitter.com/kShivamDev)
+- [Medium](https://medium.com/@shivamkaushikofficial)
+- [Angellist](https://angel.co/kshivamdev)
